@@ -34,8 +34,8 @@ public class SignupActivity extends AppCompatActivity {
 
     private String url = "http://yuvagen.com/android_map/register.php";
 
-    private String androidid;
-    private String fcmid;
+    private String androidid="androidid";
+    private String fcmid="fcmid";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,8 +120,8 @@ public class SignupActivity extends AppCompatActivity {
                 params.put("email", email);
                 params.put("password", password);
 
-                params.put("androidID", androidid);
-                params.put("fcmID", fcmid);
+                params.put("androidid", androidid);
+                params.put("fcmid", fcmid);
 
 
                 //returning parameters
