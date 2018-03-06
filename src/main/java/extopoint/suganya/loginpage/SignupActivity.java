@@ -112,6 +112,7 @@ public class SignupActivity extends AppCompatActivity {
 
                     }
                 }) {
+
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 //Converting Bitmap to String
